@@ -28,7 +28,7 @@ reqs = read_requirements('requirements.txt')
 
 setup(
     name='qgrid',
-    version='0.3.0',
+    version='0.3.2',
     description='A Pandas DataFrame viewer for IPython Notebook.',
     author='Quantopian Inc.',
     author_email='tshawver@quantopian.com',
@@ -50,5 +50,5 @@ setup(
         'Topic :: Scientific/Engineering :: Information Analysis',
         ],
     install_requires=reqs,
-    url="https://github.com/quantopian/qgrid"
+    url="https://github.com/ralphjzhang/qgrid"
 )

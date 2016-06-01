@@ -6,17 +6,9 @@ import json
 from numbers import Integral
 
 from IPython.display import display_html, display_javascript
-try:
-    from ipywidgets import widgets
-except ImportError:
-    from IPython.html import widgets
+from ipywidgets import widgets
 from IPython.display import display, Javascript
-try:
-    from traitlets import Unicode, Instance, Bool, Integer, Dict, List
-except ImportError:
-    from IPython.utils.traitlets import (
-        Unicode, Instance, Bool, Integer, Dict, List
-    )
+from traitlets import Unicode, Instance, Bool, Integer, Dict, List
 
 
 def template_contents(filename):
@@ -33,7 +25,7 @@ SLICK_GRID_CSS = template_contents('slickgrid.css.template')
 SLICK_GRID_JS = template_contents('slickgrid.js.template')
 REMOTE_URL = ("https://cdn.rawgit.com/quantopian/qgrid/"
               "master/qgrid/qgridjs/")
-LOCAL_URL = "/nbextensions/qgridjs"
+LOCAL_URL = "nbextensions/qgridjs"
 
 
 class _DefaultSettings(object):

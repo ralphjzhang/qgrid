@@ -43,7 +43,7 @@ define(["jupyter-js-widgets"], function(widgets) {
             }
 
             if (!existing_config.paths['jqueryui']){
-                path_dictionary['jqueryui'] = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min";
+                path_dictionary['jqueryui'] = "https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min";
             }
 
             require.config({
