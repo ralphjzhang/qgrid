@@ -25,7 +25,7 @@ SLICK_GRID_CSS = template_contents('slickgrid.css.template')
 SLICK_GRID_JS = template_contents('slickgrid.js.template')
 REMOTE_URL = ("https://cdn.rawgit.com/quantopian/qgrid/"
               "master/qgrid/qgridjs/")
-LOCAL_URL = "nbextensions/qgridjs"
+LOCAL_URL = "/nbextensions/qgridjs"
 
 
 class _DefaultSettings(object):
