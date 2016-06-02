@@ -213,7 +213,7 @@ def show_grid(data_frame, show_toolbar=None, remote_js=None, precision=None, gri
 
 
 class QGridWidget(widgets.DOMWidget):
-    _view_module = Unicode("nbextensions/qgridjs/qgrid.widget", sync=True)
+    _view_module = Unicode("/nbextensions/qgridjs/qgrid.widget.js", sync=True)
     _view_name = Unicode('QGridView', sync=True)
     _df_json = Unicode('', sync=True)
     _column_types_json = Unicode('', sync=True)
